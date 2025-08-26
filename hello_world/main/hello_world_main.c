@@ -17,7 +17,7 @@ void Task1(void *pvParameters)
         // Espera o semáforo 1 para rodar
         if (xSemaphoreTake(xBinarySemaphore1, portMAX_DELAY) == pdTRUE)
         {
-            printf("[Tarefa 1] Executou - Matheus-Enzo\n");
+            printf("[Tarefa 1] Executou - EnzoLelis-Cleber\n");
         }
         vTaskDelay(pdMS_TO_TICKS(1000)); // Delay de 1 segundo
     }
@@ -30,7 +30,7 @@ void Task2(void *pvParameters)
         // Espera o semáforo 2 para rodar
         if (xSemaphoreTake(xBinarySemaphore2, portMAX_DELAY) == pdTRUE)
         {
-            printf("[Tarefa 2] Executou - Matheus-Enzo\n");
+            printf("[Tarefa 2] Executou - EnzoLelis-Cleber\n");
         }
         vTaskDelay(pdMS_TO_TICKS(1000)); // Delay de 1 segundo
     }
@@ -43,7 +43,7 @@ void Task3(void *pvParameters)
         // Espera o semáforo 3 para rodar
         if (xSemaphoreTake(xBinarySemaphore3, portMAX_DELAY) == pdTRUE)
         {
-            printf("[Tarefa 3] Executou - Matheus-Enzo\n");
+            printf("[Tarefa 3] Executou - EnzoLelis-Cleber\n");
         }
         vTaskDelay(pdMS_TO_TICKS(1000)); // Delay de 1 segundo
     }
